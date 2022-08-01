@@ -10,18 +10,23 @@
 h2 {
     text-align: center;
 }
-.football{
+
+.football {
     font-size: 40px;
 }
-.music{
+
+.music {
     font-size: 40px;
 }
-.joystik{
+
+.joystik {
     font-size: 40px;
 }
-.basketball{
+
+.basketball {
     font-size: 40px;
 }
+
 .Interest-block {
     border-radius: 10px;
     color: black;
@@ -33,15 +38,50 @@ h2 {
     padding-right: 10px;
     padding: 50px;
 }
-.football:hover{
+
+.football:hover {
     color: blue;
 }
-.music:hover{
+
+.music:hover {
     color: rgb(8, 138, 95);
 }
-.joystik:hover{
+
+.joystik:hover {
     color: cornflowerblue;
 }
-.basketball:hover{
+
+.basketball:hover {
     color: orange;
+}
+
+@media (max-width: 425px) {
+    .grid-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        text-align: center;
+        padding-top: 30px;
+        margin-left: -20px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .football {
+        font-size: 30px;
+    }
+
+    .music {
+        font-size: 30px;
+    }
+
+    .joystik {
+        font-size: 30px;
+    }
+
+    .basketball {
+        font-size: 30px;
+    }
 }

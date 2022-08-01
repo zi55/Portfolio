@@ -1,0 +1,47 @@
+/* ul/li */
+.grid-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+.football{
+    font-size: 40px;
+}
+.music{
+    font-size: 40px;
+}
+.joystik{
+    font-size: 40px;
+}
+.basketball{
+    font-size: 40px;
+}
+.Interest-block {
+    border-radius: 10px;
+    color: black;
+    background: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 50px;
+}
+.football:hover{
+    color: blue;
+}
+.music:hover{
+    color: rgb(8, 138, 95);
+}
+.joystik:hover{
+    color: cornflowerblue;
+}
+.basketball:hover{
+    color: orange;
+}

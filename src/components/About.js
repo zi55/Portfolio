@@ -40,12 +40,7 @@ export default function NavBar() {
               <i className="bx bxl-youtube youtube"></i>
             </span>
           </li>
-          <li className="icon youtube">
-            <span className="tooltip">Youtube</span>
-            <span>
-              <i className="bx bxl-youtube youtube"></i>
-            </span>
-          </li>
+          
         </ul>
       </div>
       <div>

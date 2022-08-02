@@ -23,7 +23,9 @@ export default function Favorite() {
                   delightful, bright, incomparable, magnificent, interesting,
                   beautiful and the best game, it's a storm of emotions!
                 </p>
-                <button className="btn">View Trips</button>
+                <a href="https://tasty-food-hazel.vercel.app/">
+                  <button className="btn">Book Now</button>
+                </a>
               </div>
             </div>
             <div className="card">

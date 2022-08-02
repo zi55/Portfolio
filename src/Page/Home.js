@@ -6,6 +6,7 @@ import Services from '../components/Services'
 import Interest from '../components/Interest'
 import Favorite from "../components/FavoriteInterest";
 import Contact from '../components/Contact'
+// import Footer from '../components/Footer'
 let NavLink = [
   {
     txt: 'Front-end programming',
@@ -61,6 +62,7 @@ export default function Home() {
       <Interest></Interest>
       <Favorite></Favorite>
       <Contact></Contact>
+      {/* <Footer></Footer> */}
     </div>
   );
 }

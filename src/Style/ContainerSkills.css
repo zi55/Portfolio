@@ -185,6 +185,21 @@ span {
         padding-left: 10px;
         padding-right: 10px;
     }
+    .solid-px1 {
+        position: relative;
+        background-color: #1c1c1c;
+        margin: 5px 0;
+        height: 3px;
+        z-index: 0;
+        overflow: visible;
+    }
+    .Block-skill {
+        text-align: center;
+        background: #424242;
+        padding: 30px 10px 30px 10px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
 }
 
 .flex-circle {

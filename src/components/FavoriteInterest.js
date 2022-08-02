@@ -17,7 +17,7 @@ export default function Favorite() {
           <main className="page-content reveal">
             <div className="card">
               <div className="content">
-                <h2 className="title">Football</h2>
+                <h2 className="title">Tasty food</h2>
                 <p className="copy">
                   Football is life, passion, risk, it's unpredictable,
                   delightful, bright, incomparable, magnificent, interesting,

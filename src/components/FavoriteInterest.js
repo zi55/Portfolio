@@ -13,7 +13,7 @@ export default function Favorite() {
         className="m-3"
         
       >
-        <Tab eventKey="home" title="1" className="FavoButton">
+        <Tab eventKey="home" title="HTML" className="FavoButton">
           <main className="page-content reveal">
             <div className="card">
               <div className="content">
@@ -49,7 +49,7 @@ export default function Favorite() {
             </div>
           </main>
         </Tab>
-        <Tab eventKey="profile" title="2">
+        <Tab eventKey="profile" title="Vue">
           <main className="page-content reveal">
             <div className="card card1">
               <div className="content">
@@ -87,7 +87,7 @@ export default function Favorite() {
             </div>
           </main>
         </Tab>
-        <Tab eventKey="longer-tab" title="3">
+        <Tab eventKey="longer-tab" title="React">
           <main className="page-content reveal">
             <div className="card">
               <div className="content">

@@ -27,6 +27,7 @@ export default function Favorite() {
                 </a>
               </div>
             </div>
+            
             <div className="card">
               <div className="content">
                 <h2 className="title">Music</h2>

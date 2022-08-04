@@ -11,7 +11,7 @@ export default function Favorite() {
       <Tabs
         defaultActiveKey="profile"
         className="m-3"
-        
+
       >
         <Tab eventKey="home" title="HTML" className="FavoButton">
           <main className="page-content reveal">
@@ -19,12 +19,11 @@ export default function Favorite() {
               <div className="content">
                 <h2 className="title">Tasty food</h2>
                 <p className="copy">
-                  Football is life, passion, risk, it's unpredictable,
-                  delightful, bright, incomparable, magnificent, interesting,
-                  beautiful and the best game, it's a storm of emotions!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis dolor repellendus repellat at maxime blanditiis!
+
                 </p>
                 <a href="https://tasty-food-hazel.vercel.app/">
-                  <button className="btn">Book Now</button>
+                  <button className="btn">View Demo</button>
                 </a>
               </div>
             </div>
@@ -32,10 +31,11 @@ export default function Favorite() {
               <div className="content">
                 <h2 className="title">Music</h2>
                 <p className="copy">
-                  This is an art form in which musical sounds are organized in a
-                  certain way as a means of embodying artistic images.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis dolor repellendus repellat at maxime blanditiis!
                 </p>
-                <button className="btn">View Trips</button>
+                <a href="https://rolex-website.vercel.app/">
+                  <button className="btn">View Demo</button>
+                </a>
               </div>
             </div>
             <div className="card">

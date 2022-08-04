@@ -19,7 +19,7 @@ export default function Favorite() {
               <div className="content">
                 <h2 className="title">Tasty food</h2>
                 <p className="copy">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis dolor repellendus repellat at maxime blanditiis!
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis dolor repellendus repellat at maxime blanditiis!
 
                 </p>
                 <a href="https://tasty-food-hazel.vercel.app/">
@@ -27,10 +27,10 @@ export default function Favorite() {
                 </a>
               </div>
             </div>
-            
+
             <div className="card">
               <div className="content">
-                <h2 className="title">Music</h2>
+                <h2 className="title">Rolex</h2>
                 <p className="copy">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis dolor repellendus repellat at maxime blanditiis!
                 </p>
@@ -41,13 +41,15 @@ export default function Favorite() {
             </div>
             <div className="card">
               <div className="content">
-                <h2 className="title">Game</h2>
+                <h2 className="title">New Year</h2>
                 <p className="copy">
                   A game is such a set of actions, the value of which consists
                   not in the result, but in what was obtained in the process of
                   this pastime.
                 </p>
-                <button className="btn">Book Now</button>
+                <a href="https://new-year-s-website.vercel.app/">
+                  <button className="btn">View Demo</button>
+                </a>
               </div>
             </div>
           </main>

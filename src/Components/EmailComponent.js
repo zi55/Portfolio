@@ -20,9 +20,9 @@ function EmailComponent() {
         const form = document.querySelector('.form');
         let emailInput = document.querySelector('.email').value;
         let preloader = document.querySelector('.preloader');
-        console.log(12313);
+        console.log(23);
 
-        console.log(12);
+
         let user_email = email;
         let user_msg = document.querySelector(".message").value;
         let user_name = document.querySelector(".name").valu;

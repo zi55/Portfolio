@@ -1,32 +1,27 @@
-import { Outlet } from "react-router-dom";
-import NavBar from "./components/Navbar";
-let NavLink = [
-  {
-    txt: 'Главная',
-    url: "/",
-  },
-  {
-    txt: 'SKILLS',
-    url: "/",
-  },
-  {
-    txt: 'SERVICES',
-    url: "/",
 
-  },
-  {
-    txt: 'INTEREST',
-    url: "/",
-  },
-];
+import './App.css';
+import Navigation from './Components/Navigation';
+import AboutMeComponent from "./Components/AboutMeComponent";
+import ProjectsComponent from './Components/ProjectsComponent';
+import HomePageComponent from './Components/HomePageComponent';
+import FooterComponent from './Components/FooterComponent';
+
 function App() {
   return (
     <div className="App">
+      <header className="App-header">
+        <Navigation></Navigation>
+      </header>
       <main>
-      
-            <NavBar arrLink={NavLink}></NavBar>
-      <Outlet/>
+        <HomePageComponent></HomePageComponent>
+        <AboutMeComponent></AboutMeComponent>
+        <ProjectsComponent></ProjectsComponent>
       </main>
+      <footer>
+        <FooterComponent></FooterComponent>
+      </footer>
+
+    
     </div>
   );
 }

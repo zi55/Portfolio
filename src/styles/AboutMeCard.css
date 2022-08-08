@@ -1,0 +1,92 @@
+.about-info-wrapper{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 50px;
+    border-top: 1px dashed white;
+}
+.preinfo-block{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    flex-basis: 80%;
+}
+.left-info-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 30%;
+    border: 1px solid white;
+}
+.left-block-text{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.left-block-title{
+    color: white;
+    font-size: 1.3rem;
+}
+.left-block-description{
+    color: white;
+    font-size: 1.1rem;
+}
+.background-block{
+    z-index: -1;
+    position: absolute;  
+    width: 100%;
+    height: 100%;
+    background: white url(../imgs/bgc.png) 50% 50% no-repeat ;
+    background-size: cover;
+    transition: all 0.5s;
+    box-shadow: inset 5px 0px 10px 10px rgba(0, 0, 0, 1);
+}
+.preinfo-block:hover .background-block{
+    filter: brightness(0.3) blur(12px);
+}
+.about-info{
+    position: absolute;
+    left:120%; 
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* height: 100%; */
+    width: 70%;
+    margin: 0 auto;
+    gap: 20px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    border: 2px dashed white;
+    padding: 10px 20px;
+    transition: 1s all;
+}
+
+.preinfo-block:hover .about-info{
+    top: 50%;
+    left: 50%;
+    display: flex;
+}
+.about-btn{
+    display: inline-block;
+    padding: 8px 6px;
+    border-radius: 10px;    
+    cursor: pointer;
+
+    /* background-color: black; */
+}
+.about_me-info{
+    font-size: 1.1rem;
+}
+.about_me-preinfo, .about_me-title, .about_me-info, .about_me-perscription{
+    color: white;
+}
+.about_me-title{
+    font-size: 1.3rem;
+
+}
+    

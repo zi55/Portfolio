@@ -24,6 +24,8 @@
 
 .col {
     width: calc(25% - 2rem);
+    min-width: 250px;
+    max-width: 300px;
     margin: 1rem;
     cursor: pointer;
 }
@@ -53,7 +55,7 @@
     height: auto;
     border-radius: 10px;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .a {

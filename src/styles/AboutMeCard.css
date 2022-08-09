@@ -89,4 +89,24 @@
     font-size: 1.3rem;
 
 }
-    
+@media screen and (max-width: 900px) {
+    .about-info-wrapper{
+        flex-direction: column;
+        gap: 30px;
+        padding: 0;
+    }
+    .preinfo-block{
+        flex-basis: 500px;
+    }
+    .about-info{
+        width: 90%;
+        height: 100%;
+        padding: 20px 10px;
+    }
+    .about-info p{
+        font-size: 1rem;
+    }
+     .background-block{
+        box-shadow: inset 3px 0px 5px 5px rgba(0, 0, 0, 1);
+     }
+}   

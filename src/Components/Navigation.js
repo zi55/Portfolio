@@ -1,19 +1,28 @@
-import { React, NavLink } from 'react';
+import React,{ useState } from 'react';
 import "../styles/Navigation.css"
 function Navigation() {
+        const [isActive, setIsAcive]= useState(false)
+        let toggleMenu = () => {
+            setIsAcive(!isActive);
+            // const menu = document.querySelector('.nav_list');
+        }
+
     return (
         <div className='nav mb'>
             <div className='logo__block'>
                 {/* <img src="#" /> */}
                 <h2 className='nav-title'>My Page</h2>
             </div>
-
-
-            <ul className='nav_list'>
-                <li className='nav_item'>About me</li>
-                <li className='nav_item'>Others projects</li>
-                <li className='nav_item'>Contact me</li>
+            <ul className={isActive ? 'active nav_list ':'nav_list'}>
+                <li className='nav_item' onClick={toggleMenu}>About me</li>
+                <li className='nav_item' onClick={toggleMenu}>Others projects</li>
+                <li className='nav_item' onClick={toggleMenu}>Contact me</li>
             </ul>
+            <div className="burger" onClick={toggleMenu}>
+                <span className="burger-item"></span>
+                <span className="burger-item close-item"></span>
+                <span className="burger-item"></span>
+            </div>
         </div >
     );
 }

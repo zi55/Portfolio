@@ -5,65 +5,77 @@ function ProjectsComponent() {
         <div id="projects" className="projects-wrapper mb">
             <h1 className="projects-title title-mb">My Projects</h1>
             <div className="cols">
-                <div className="col" onClick={(e)=>e.target.classList.toggle('hover')}>
-                    <div className="container">
-                        <div className="front a">
-                            <div className="inner">
-                                <p>Photo shooting</p>
-                                <span>Click to visit it</span>
+                <div className="col" onClick={(e) => e.target.classList.toggle('hover')}>
+                    <a href="https://photo-iota-lovat.vercel.app/">
+
+                        <div className="container">
+                            <div className="front a">
+                                <div className="inner">
+                                    <p>Photo shooting</p>
+                                    <span>Click to visit it</span>
+                                </div>
+                            </div>
+                            <div className="back">
+                                <div className="inner">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                </div>
                             </div>
                         </div>
-                        <div className="back">
-                            <div className="inner">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-                            </div>
-                        </div>
-                    </div>
+                    </a>
                 </div>
-                <div className="col" onClick={(e)=>e.target.classList.toggle('hover')}>
-                    <div className="container">
-                        <div className="front b">
-                            <div className="inner">
-                                <p>Book shop</p>
-                                <span>Click to visit it</span>
+                <div className="col" onClick={(e) => e.target.classList.toggle('hover')}>
+                    <a href="https://bookshop-iota.vercel.app/">
+                        <div className="container">
+                            <div className="front b">
+                                <div className="inner">
+                                    <p>Book shop</p>
+                                    <span>Click to visit it</span>
+                                </div>
+                            </div>
+                            <div className="back">
+                                <div className="inner">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                </div>
                             </div>
                         </div>
-                        <div className="back">
-                            <div className="inner">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-                            </div>
-                        </div>
-                    </div>
+
+                    </a>
                 </div>
-                <div className="col" onClick={(e)=>e.target.classList.toggle('hover')}>
-                    <div className="container">
-                        <div className="front c">
-                            <div className="inner">
-                                <p>Watch shop</p>
-                                <span>Click to visit it</span>
+                <div className="col" onClick={(e) => e.target.classList.toggle('hover')}>
+                    <a href="https://watchshop-plum.vercel.app/">
+
+                        <div className="container">
+                            <div className="front c">
+                                <div className="inner">
+                                    <p>Watch shop</p>
+                                    <span>Click to visit it</span>
+                                </div>
+                            </div>
+                            <div className="back">
+                                <div className="inner">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                </div>
                             </div>
                         </div>
-                        <div className="back">
-                            <div className="inner">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-                            </div>
-                        </div>
-                    </div>
+                    </a>
                 </div>
-                 <div className="col" onClick={(e)=>e.target.classList.toggle('hover')}>
-                    <div className="container">
-                        <div className="front d">
-                            <div className="inner">
-                                <p>Weather</p>
-                                <span>Click to visit it</span>
+                <div className="col" onClick={(e) => e.target.classList.toggle('hover')}>
+                    <a href='https://weather-plum-eight.vercel.app/'>
+
+                        <div className="container">
+                            <div className="front d">
+                                <div className="inner">
+                                    <p>Weather</p>
+                                    <span>Click to visit it</span>
+                                </div>
+                            </div>
+                            <div className="back">
+                                <div className="inner">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                </div>
                             </div>
                         </div>
-                        <div className="back">
-                            <div className="inner">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-                            </div>
-                        </div>
-                    </div>
+                    </a>
                 </div>
                 {/*<div className="col" ontouchstart="this.classList.toggle('hover');">
                     <div className="container">
@@ -125,7 +137,7 @@ function ProjectsComponent() {
                         </div>
                     </div>
                 </div> */}
-            </div> 
+            </div>
         </div>
     );
 }

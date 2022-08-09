@@ -48,7 +48,7 @@ function EmailComponent() {
         }
     }
     return (
-        <div className="form-wrapper">
+        <div className="form-wrapper" id="contact">
             <form action='sendMail.php' method='POST' className='form'>
                 <div className='name-input input-block'>
                     <label for="name">Name</label>

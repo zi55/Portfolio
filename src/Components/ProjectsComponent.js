@@ -2,7 +2,7 @@ import React from 'react';
 import "../styles/ProjectsComponent.css";
 function ProjectsComponent() {
     return (
-        <div className="wrapper mb">
+        <div id="projects" className="projects-wrapper mb">
             <h1 className="projects-title title-mb">My Projects</h1>
             <div className="cols">
                 <div className="col" onClick={(e)=>e.target.classList.toggle('hover')}>

@@ -5,7 +5,7 @@ import SecondSlide from "../imgs/second-slide.jpg";
 import ThirdSlide from "../imgs/third-slide.png";
 import "../styles/HomePageComponent.css"
 function HomePageComponent() {
-    return <Carousel fade className="slider-wrapper mb">
+    return <Carousel fade id="home" className="slider-wrapper mb">
         <Carousel.Item>
             <img
                 className="Navbar-img"

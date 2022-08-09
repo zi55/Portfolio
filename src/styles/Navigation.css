@@ -53,16 +53,18 @@
 }
 
 .nav_item {
-    color: rgb(64, 64, 64);
+    padding: 10px;
+}
+.nav_item a{
+    color: rgb(0, 0, 0);
+    transition: all 0.5s;
     font-weight: bold;
     font-size: 16px;
-    padding: 10px;
-    transition: all 0.5s;
+    text-decoration: none;
 }
-
-.nav_item:hover {
+.nav_item a:hover {
     /* background-color: rgba(94, 91, 5, 0.648); */
-    color: rgb(40, 40, 40);
+    color: rgb(74, 74, 74);
     text-decoration: underline;
 }
 
@@ -90,10 +92,13 @@
         border: 1px solid gold;
     }
     .nav_item{
-        font-size: 1.3rem;
-        text-align: center;
         padding: 20px 0;
         width: 100%;
+        text-align: center;
+    }
+    .nav_item a{
+        font-size: 1.3rem;
+        text-align: center;
         color: rgb(214, 182, 0);
     }
     .nav_item:hover {

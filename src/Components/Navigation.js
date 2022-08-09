@@ -14,9 +14,9 @@ function Navigation() {
                 <h2 className='nav-title'>My Page</h2>
             </div>
             <ul className={isActive ? 'active nav_list ':'nav_list'}>
-                <li className='nav_item' onClick={toggleMenu}>About me</li>
-                <li className='nav_item' onClick={toggleMenu}>Others projects</li>
-                <li className='nav_item' onClick={toggleMenu}>Contact me</li>
+                <li  className='nav_item' onClick={toggleMenu}><a href="#about">About me</a></li>
+                <li  className='nav_item' onClick={toggleMenu}><a href="#projects">Others projects</a></li>
+                <li  className='nav_item' onClick={toggleMenu}><a href="#contact">Contact me</a></li>
             </ul>
             <div className="burger" onClick={toggleMenu}>
                 <span className="burger-item"></span>

@@ -1,7 +1,8 @@
 import React from 'react';
 import "../styles/AboutMeCard.css";
 function AboutMeCard() {
-    return ( 
+
+    return (
         <div className='about-info-wrapper mb'>
             <div className='left-info-block'>
                 <div className='left-block-text'>
@@ -24,12 +25,12 @@ function AboutMeCard() {
                         Working with me, be sure that you will get a high-quality product at the end, which will contain all the new subtleties and technologies of modern layout.
                         Just below you can see the rest of my work written in Vue, React, and just native JavaScript.
                     </p>
-                    <input type="button" value="Other projects" className="projects-btn" data="about" />
+                    <a id="btn" href="#projects">Other Projects</a>
                 </div>
             </div>
 
         </div>
-     );
+    );
 }
 
 export default AboutMeCard;

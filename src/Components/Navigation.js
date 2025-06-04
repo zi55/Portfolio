@@ -11,7 +11,7 @@ function Navigation() {
         <div className='nav mb'>
             <div className='logo__block'>
                 {/* <img src="#" /> */}
-                <h2 className='nav-title'>My Page</h2>
+                <h2 className='nav-title'>Portfolio</h2>
             </div>
             <ul className={isActive ? 'active nav_list ':'nav_list'}>
                 <li  className='nav_item' onClick={toggleMenu}><a href="#about">About me</a></li>

@@ -104,7 +104,8 @@
     top: 50%;
     transform: translate(-50%, -50%);
     /* height: 100%; */
-    width: 70%;
+    width: 80%;
+    height: 100%;
     margin: 0 auto;
     gap: 20px;
     display: none;

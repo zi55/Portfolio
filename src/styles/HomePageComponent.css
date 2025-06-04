@@ -1,13 +1,21 @@
 .slider-wrapper{
     box-shadow: 0 0 20px black;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .slider-wrapper img{
-    height: 700px
+    height: 500px;
+    filter: brightness(0.8);
+    /* transform: brightness(0.7); */
 }
 .slider-wrapper h3{
     color: rgb(191, 0, 255);
 }
 .slider-wrapper p{
     color: rgb(139, 139, 139);
+}
+.slide1_text h3, .slide1_text p{
+    color: rgba(255, 237, 118, 0.981);
+}
+.slide2_text h3, .slide2_text p{
+    color: rgba(255, 255, 255, 0.981);
 }

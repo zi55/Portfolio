@@ -6,43 +6,43 @@ import ThirdSlide from "../imgs/third-slide.png";
 import "../styles/HomePageComponent.css"
 function HomePageComponent() {
     return <Carousel fade id="home" className="slider-wrapper mb">
-        <Carousel.Item>
+        <Carousel.Item className="slide1">
             <img
                 className="Navbar-img"
                 src={FirstSlide}
                 alt="First slide"
             >
             </img>
-            <Carousel.Caption>
+            <Carousel.Caption className='slide1_text'>
                 <h3>First slide label</h3>
                 <p>Here can be everything you want</p>
             </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className="slide2">
             <img
                 className="Navbar-img"
                 src={SecondSlide}
                 alt="Second slide"
             />
 
-            <Carousel.Caption>
+            <Carousel.Caption className='slide2_text'>
                 <h3>Second slide label</h3>
                 <p>Here can be everything you want</p>
             </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className="slide3">
             <img
                 className="Navbar-img"
                 src={ThirdSlide}
                 alt="Third slide"
             />
 
-            <Carousel.Caption>
+            {/* <Carousel.Caption>
                 <h3>Third slide label</h3>
                 <p>
                     Here can be everything you want
                 </p>
-            </Carousel.Caption>
+            </Carousel.Caption> */}
         </Carousel.Item>
     </Carousel>
 }

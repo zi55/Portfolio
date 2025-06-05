@@ -3,9 +3,30 @@ import Carousel from "react-bootstrap/Carousel";
 import FirstSlide from "../imgs/first-slide.jpg";
 import SecondSlide from "../imgs/second-slide.jpg";
 import ThirdSlide from "../imgs/third-slide.png";
+import MyAvatar from "../imgs/icons/github.png";
 import "../styles/HomePageComponent.css"
 function HomePageComponent() {
-    return <Carousel fade id="home" className="slider-wrapper mb">
+    return <div className='about_me'>
+        <div className='about_me-container'>
+
+            <div className='about_me-text'>
+                <span>👋</span>
+                <h2 className='my_name'>
+                    Ilya Zaytsev
+                </h2>
+                <p>
+                    lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+                </p>
+            </div>
+            <div className='about_me-avatar'>
+                <img src={MyAvatar} alt='my avatar'></img>
+            </div>
+        </div>
+    </div>
+}
+
+export default HomePageComponent;
+{/* <Carousel fade id="home" className="slider-wrapper mb">
         <Carousel.Item className="slide1">
             <img
                 className="Navbar-img"
@@ -43,8 +64,5 @@ function HomePageComponent() {
                     Here can be everything you want
                 </p>
             </Carousel.Caption> */}
-        </Carousel.Item>
-    </Carousel>
-}
-
-export default HomePageComponent;
+    //     </Carousel.Item>
+    // </Carousel> */}

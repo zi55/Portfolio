@@ -14,8 +14,8 @@ function App() {
       </header>
       <main>
         <HomePageComponent></HomePageComponent>
-        <AboutMeComponent></AboutMeComponent>
         <ProjectsComponent></ProjectsComponent>
+        <AboutMeComponent></AboutMeComponent>
       </main>
       <footer>
         <FooterComponent></FooterComponent>

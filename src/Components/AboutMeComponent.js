@@ -5,8 +5,8 @@ import AboutMeMain from './AboutMeMain';
 function AboutMeComponent() {
     return (
         <div className='about_me-wrapper mb' id="about">
-            <AboutMeCard/>
             <AboutMeMain/>
+            <AboutMeCard/>
         </div>
 
     );

@@ -67,7 +67,7 @@
     justify-content: center;
     align-items: center;
     flex-basis: 30%;
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
 }
 .left-block-text{
     max-width: 80%;
@@ -78,11 +78,11 @@
     align-items: center;
 }
 .left-block-title{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1.3rem;
 }
 .left-block-description{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1.1rem;
 }
 .background-block{
